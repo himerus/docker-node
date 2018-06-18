@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ $OUTRIGGER_QUIET == "0" ]]; then
+  echo "Running Node"
+  echo "Node: $(node --version); npm: $(npm --version); yarn: $(yarn --version)"
+  echo
+fi
