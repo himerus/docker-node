@@ -6,7 +6,7 @@ LABEL maintainer="Phase2 <outrigger@phase2technology.com>" \
   org.label-schema.vendor="Phase2 <outrigger@phase2technology.com>" \
   org.label-schema.name="Node v%%NODE_VERSION%%" \
   org.label-schema.vcs-url="https://github.com/phase2/docker-node" \
-  org.label-schema.docker.cmd="docker run --rm -it outrigger/node:8" \
+  org.label-schema.docker.cmd="docker run --rm -it outrigger/node:%%NODE_VERSION%%" \
   org.label-schema.schema-version="1.0"
 
 # Operational node systems commonly need to make remote requests.
