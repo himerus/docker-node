@@ -15,7 +15,7 @@ with them, please [see the documentation](http://docs.outrigger.sh/).
 Based on outrigger/servicebase, which provides a CentOS-base, s6 init system
 and confd configuration templating.
 
-## Node v8
+## Node v8, v10
 
 Based on official Node images, specifically the Alpine variant, and
 adds special functionality on top. Currently that includes:
